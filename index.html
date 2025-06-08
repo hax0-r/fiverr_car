@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+
+<body class="">
+
+    <div id="bottomToTopScroll"></div>
+    <div id="navbar"></div>
+
+    <section class="relative w-full min-h-screen overflow-hidden">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
+            <source src="/docs/assets/images/car.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Content Overlay -->
+        <div class="relative z-10 max-w-7xl mx-auto p-5 min-h-screen flex items-start justify-between">
+            <div
+                class="lg:max-w-[50%] lg:text-start text-center relative min-h-screen flex lg:items-start items-center justify-center  flex-col">
+                <h1 data-aos="fade-up" data-aos-delay="100"
+                    class="max-w-4xl Montserrat textShadow text-zinc-200 font-bold text-4xl mb-5 xl:text-7xl lg:text-6xl capitalize leading-tight">
+                    Your Personal
+                    <span class="text-[#efc360]">Chauffeur Service</span>
+                </h1>
+                <p data-aos="fade-up" data-aos-delay="200"
+                    class="max-w-3xl textShadow text-base font-normal leading-7 text-zinc-200 lg:text-xl text-lg tracking-wider mb-9">
+                    Awarded best company
+
+                </p>
+                <a href="/products.html" data-aos="fade-up" data-aos-delay="300"
+                    class="w-full lg:w-auto lg:mb-14 mb-7 flex items-center justify-center gap-3 py-3 px-10 font-medium text-center text-zinc-800 rounded-full bg-[#efc360] hover:opacity-80 transition-all duration-500">
+                    Book Now
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+            <div
+                class="lg:max-w-[50%] lg:text-end text-center relative min-h-screen lg:flex hidden lg:items-end items-center justify-center flex-col">
+                <div class="flex items-center">
+                    <img src="/docs/assets/images/car1.jpg" class="rounded-full w-12 h-12 object-cover" alt="">
+                    <img src="/docs/assets/images/car1.jpg" class="-ml-5 rounded-full w-12 h-12 object-cover" alt="">
+                    <img src="/docs/assets/images/car1.jpg" class="-ml-5 rounded-full w-12 h-12 object-cover" alt="">
+                </div>
+                <h2 class="text-zinc-300 text-xl font-semibold mt-6">12.5K+ People</h2>
+                <p class="text-zinc-300 mt-3  max-w-[20rem]">Enjoy the GoCar Experience, Join those who have experienced Adventure</p>
+
+                <div class="flex items-center flex-wrap mt-20 gap-3 max-w-[17rem] w-full">
+                    <a href="#" class="block hover:bg-[#ddb93e] transition-all duration-500 hover:text-white px-5 py-2 rounded-full border-2 border-[#ddb93e] text-[#ddb93e] text-center">Airport</a>
+                    <a href="#" class="block hover:bg-[#ddb93e] transition-all duration-500 hover:text-white px-5 py-2 rounded-full border-2 border-[#ddb93e] text-[#ddb93e] text-center">Consult</a>
+                    <a href="#" class="block hover:bg-[#ddb93e] transition-all duration-500 hover:text-white px-5 py-2 rounded-full border-2 border-[#ddb93e] text-[#ddb93e] text-center">Luxury Tours</a>
+                    <a href="#" class="block hover:bg-[#ddb93e] transition-all duration-500 hover:text-white px-5 py-2 rounded-full border-2 border-[#ddb93e] text-[#ddb93e] text-center">Weddings</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="md:mt-16 mt-10" id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+</body>
+
+</html>
