@@ -39,3 +39,7 @@ input:user-invalid {
 .homeBanner {
     background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.705)), url(/docs/assets/images/car1.jpg) center/cover no-repeat;
 }
+
+.carBg {
+    background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.705)), url(/docs/assets/images/car4.jpg) center/cover no-repeat;
+}
