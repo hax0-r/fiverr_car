@@ -1,56 +1,46 @@
 const footer = document.getElementById('footer')
 footer.innerHTML = `
-    <footer class="w-full py-14">
-        <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="mx-auto">
-                <a data-aos="zoom-in" href="/index.html" class="flex justify-center ">
-                    <img src="/docs/assets/images/logo.png" class="md:h-32 h-20" alt="">
-                </a>
-                <ul data-aos="fade-up"
-                    class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 pt-12 ">
-                    <li><a href="/index.html" class="hover:text-[#a21410] transition-all duration-500">Home </a>
-                    </li>
-                    <li><a href="/story.html" class="hover:text-[#a21410] transition-all duration-500">Story</a>
-                    </li>
-                    <li><a href="/menu.html" class="hover:text-[#a21410] transition-all duration-500">Menu</a></li>
-                    <li><a href="/gallery.html" class="hover:text-[#a21410] transition-all duration-500">Gallery</a>
-                    </li>
-                </ul>
-                <div data-aos="fade-up" class="flex items-center justify-center text-zinc-600 text-2xl gap-8 mt-7">
-                    <a href="">
-                        <i class="fa-brands transition-all duration-500 hover:text-[#a21410] fa-instagram"></i>
-                    </a>
-                    <a href="">
-                        <i class="fa-brands transition-all duration-500 hover:text-[#a21410] fa-facebook-f"></i>
-                    </a>
-                    <a href="">
-                        <i class="fa-brands transition-all duration-500 hover:text-[#a21410] fa-x-twitter"></i>
-                    </a>
-                    <a href="">
-                        <i class="fa-brands transition-all duration-500 hover:text-[#a21410] fa-tiktok"></i>
-                    </a>
-                    <a href="">
-                        <i class="fa-brands transition-all duration-500 hover:text-[#a21410] fa-youtube"></i>
-                    </a>
-                </div>
-
-                <div data-aos="fade-up" class="flex items-center justify-center mt-5 ">
-                    <a href="tel:+01267275330"
-                        class="text-center text-lg text-zinc-700 hover:text-[#a21410] transition-all duration-500 transition-all">
-                        Tel: 01267 275 330
-                    </a>
-                </div>
-                <div
-                    class="border-t md:flex-row flex-col gap-5 border-gray-200 pt-5 flex items-center justify-between mt-8">
-                    <span class="text-lg text-gray-700 text-center block">© <span id="copyright"></span> Butchers of
-                        Llanddarog. All rights reserved.</span>
-                    <a href="#"
-                        class="text-gray-700 hover:text-[#a21410] transition-all duration-500 transition-all">Privacy
-                        policy</a>
-                </div>
-            </div>
+ <footer
+        class="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-10 p-5 mt-10 mx-auto max-w-7xl p-5">
+        <div class="md:col-span-2 md:pr-16">
+            <h2 class="md:text-4xl text-3xl text-zinc-800 font-semibold ">Don’t Miss a Thing</h2>
+            <p class="md:mt-5 mt-3 text-zinc-600">Subscribe to our newsletter for exclusive deals and updates.</p>
+            <form action="" class="mt-5 flex flex-col items-end gap-3">
+                <input type="text" class="border border-zinc-300 w-full rounded-full p-3"
+                    placeholder="Enter email address for newsletter ... ">
+                <button class="cursor-pointer transition-all duration-500 hover:opacity-80">Subscribe</button>
+            </form>
+        </div>
+        <div class="second">
+            <h2 class="text-2xl text-zinc-800 font-semibold">Quick Link</h2>
+            <ul class="mt-5 space-y-3 text-zinc-700 font-medium">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About us</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/fleet.html">Fleet</a></li>
+            </ul>
+        </div>
+        <div class="second">
+            <h2 class="text-2xl text-zinc-800 font-semibold"> The Cars</h2>
+            <ul class="mt-5 space-y-3 text-zinc-700 font-medium">
+                <li><a href="#choose">Features</a></li>
+                <li><a href="#theCars">Pick a Ride</a></li>
+                <li><a href="#ready">Ready For Trip</a></li>
+            </ul>
+        </div>
+        <div class="second">
+            <h2 class="text-2xl text-zinc-800 font-semibold">Social Media</h2>
+            <ul class="mt-5 space-y-3 text-zinc-700 font-medium">
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://www.twitter.com/">Twitter</a></li>
+            </ul>
         </div>
     </footer>
+
+    <p class="text-center p-4 text-zinc-600 mt-5">
+        Copyright © <span id="copyright"></span> Website Name. All rights reserved.
+    </p>
 `
 
 const year = new Date().getFullYear()

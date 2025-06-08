@@ -21,7 +21,7 @@ navbar.innerHTML = `
                     </ul>
                 </div>
             </div>
-            <div class="md:flex items-center justify-center gap-3 hidden">
+            <div class="md:flex items-center justify-center gap-3 hidden" data-aos="fade-left">
                 <a href="/contact.html"
                     class="md:block hidden transition-all duration-500 hover:opacity-80 border-2 border-[#ddb93e] px-8 py-3 rounded-full text-white bg-[#ddb93e]">Contact
                     Us</a>
