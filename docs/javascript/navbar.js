@@ -73,17 +73,17 @@ navbar.innerHTML = `
         </div>
         <div class="p-6">
             <ul class="flex relative z-50 text-zinc-800 flex-col gap-7">
-                <li><a href="/index.html" class="hover:text-[#ddb93e] transition-all duration-500">Home </a>
+                <li><a href="/index.html" class="hover:text-[#ddb93e] text-nowrap transition-all duration-500">Home </a>
                 </li>
-                <li><a href="/about.html" class="hover:text-[#ddb93e] transition-all duration-500">About Us</a>
+                <li><a href="/about.html" class="hover:text-[#ddb93e] text-nowrap transition-all duration-500">About Us</a>
                 </li>
-                <li><a href="/services.html" class="hover:text-[#ddb93e] transition-all duration-500">Services</a>
+                <li><a href="/services.html" class="hover:text-[#ddb93e] text-nowrap transition-all duration-500">Services</a>
                 </li>
-                <li><a href="/fleet.html" class="hover:text-[#ddb93e] transition-all duration-500">Fleet</a>
+                <li><a href="/fleet.html" class="hover:text-[#ddb93e] text-nowrap transition-all duration-500">Fleet</a>
                 </li>
             </ul>
             <a href="/contact.html"
-                class=" block mt-5 w-full text-center transition-all duration-500 hover:opacity-80 border-2 border-[#ddb93e] px-8 py-3 rounded-full text-white bg-[#ddb93e]">Contact
+                class=" block mt-5 w-full text-center transition-all  text-nowrap duration-500 hover:opacity-80 border-2 border-[#ddb93e] px-8 py-3 rounded-full text-white bg-[#ddb93e]">Contact
                 Us</a>
         </div>
     </div>
