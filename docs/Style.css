@@ -43,3 +43,8 @@ input:user-invalid {
 .carBg {
     background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.705)), url(/docs/assets/images/car4.jpg) center/cover no-repeat;
 }
+
+.vehicles {
+    background: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.555)), url(/docs/assets/images/car14.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+}
