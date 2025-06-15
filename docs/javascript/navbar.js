@@ -4,19 +4,20 @@ navbar.innerHTML = `
     <nav class="absolute top-0 left-0 w-full z-40 transition-all duration-300">
         <div class="max-w-7xl mx-auto flex justify-between items-center w-full md:p-5 p-3 md:h-24 h-20">
             <a data-aos="fade-right" href="/index.html" class="flex items-center justify-center lg:justify-start">
-                <img src="/docs/assets/images/LogoWhite.png" class="md:h-24 h-20" alt="logo">
+            <!-- <img src="/docs/assets/images/LogoWhite.png" class="md:h-24 h-20" alt="logo"> -->
+             <h2 class="text-white font-semibold text-2xl">Logo</h2>
             </a>
             <div data-aos="fade-left" class="md:flex hidden items-center gap-10">
                 <div class="md:flex items-center gap-10 hidden">
                     <ul class="md:flex hidden items-center text-zinc-100 gap-10">
-                        <li><a href="/index.html" class="hover:text-[#ddb93e] transition-all duration-500">Home </a>
+                        <li><a href="/index.html" class="hover:text-[#ddb93e] tracking-wide transition-all duration-500">Home </a>
                         </li>
-                        <li><a href="/about.html" class="hover:text-[#ddb93e] transition-all duration-500">About Us</a>
+                        <li><a href="/about.html" class="hover:text-[#ddb93e] tracking-wide transition-all duration-500">About Us</a>
                         </li>
                         <li><a href="/services.html"
-                                class="hover:text-[#ddb93e] transition-all duration-500">Services</a>
+                                class="hover:text-[#ddb93e] tracking-wide transition-all duration-500">Services</a>
                         </li>
-                        <li><a href="/fleet.html" class="hover:text-[#ddb93e] transition-all duration-500">Fleet</a>
+                        <li><a href="/fleet.html" class="hover:text-[#ddb93e] tracking-wide transition-all duration-500">Fleet</a>
                         </li>
                     </ul>
                 </div>
