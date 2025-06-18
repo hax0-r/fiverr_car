@@ -31,16 +31,16 @@
     <section class="relative homeBanner w-full min-h-screen overflow-hidden">
         <!-- Content Overlay -->
         <div
-            class="relative z-10 max-w-7xl mx-auto p-5 min-h-screen flex md:flex-row flex-col items-center justify-center">
+            class="relative z-10 max-w-7xl mx-auto px-5 min-h-screen flex md:flex-row   md:gap-10 gap-5 py-24 md:py-0 mt-10 md:mt-0  flex-col items-center md:justify-between justify-center">
             <div
-                class="lg :max-w-[50%] text-center relative md:min-h-screen flex items-center justify-center  flex-col">
+                class="lg :max-w-[50%] text-center md:text-start relative md:min-h-screen flex items-center md:items-start justify-center  flex-col">
                 <h1 data-aos="fade-up" data-aos-delay="100"
-                    class="max-w-4xl textShadow text-zinc-200 font-bold text-4xl mb-5 xl:text-8xl poppins lg:text-6xl capitalize leading-tight">
+                    class="max-w-4xl textShadow text-zinc-200 font-bold text-4xl mb-5 xl:text-7xl poppins lg:text-6xl capitalize leading-tight">
                     Your Personal
                     <span class="text-[#efc360] poppins">Chauffeur Service</span>
                 </h1>
                 <p data-aos="fade-up" data-aos-delay="200"
-                    class="max-w-3xl textShadow text-base font-normal leading-7 text-zinc-200 lg:text-xl text-lg tracking-wider mb-9">
+                    class="textShadow text-base font-normal leading-7 text-zinc-200 lg:text-xl text-lg tracking-wider mb-9">
                     Awarded best company
 
                 </p>
@@ -50,33 +50,35 @@
                     <i class="fa-solid fa-angle-right"></i>
                 </a>
             </div>
-            <!-- <div
-                class="lg:max-w-[50%] lg:text-end text-center relative md:min-h-screen flex lg:items-end items-center justify-center flex-col">
-                <div class="flex items-center" data-aos="fade-up">
-                    <img src="/docs/assets/images/client1.png" class="rounded-full w-12 h-12 object-cover" alt="">
-                    <img src="/docs/assets/images/client1.png" class="-ml-5 rounded-full w-12 h-12 object-cover" alt="">
-                    <img src="/docs/assets/images/client1.png" class="-ml-5 rounded-full w-12 h-12 object-cover" alt="">
-                </div>
-                <h2 data-aos-delay="100" data-aos="fade-up" class="text-zinc-300 text-xl font-semibold mt-6">12.5K+
-                    People</h2>
-                <p data-aos="fade-up" data-aos-delay="200" class="text-zinc-300 mt-3  max-w-[20rem]">Enjoy the GoCar
-                    Experience, Join those who have experienced
-                    Adventure</p>
+            <div
+                class="lg:max-w-[50%] lg:text-end w-full text-center relative md:min-h-screen flex lg:items-end items-center justify-center flex-col">
+                <form data-aos="fade-up" data-aos-delay="200" action=""
+                    class="bg-white max-w-md w-full md:p-10 p-5 rounded-xl">
+                    <h2 class="text-center text-zinc-700 font-semibold text-xl">GET A PRICE & BOOK</h2>
+                    <div class="flex items-center md:flex-row flex-col justify-center gap-4 mt-5">
+                        <button
+                            class="px-10 py-3 cursor-pointer rounded-lg md:w-auto w-full border-2 border-[#efc360] bg-yellow-50 text-[#efc360] font-medium">One
+                            Way</button>
+                        <button
+                            class="px-10 py-3 cursor-pointer rounded-lg md:w-auto w-full border-2 border-zinc-400 text-zinc-700">By
+                            The Hour</button>
+                    </div>
 
-                <div data-aos="fade-up" data-aos-delay="300"
-                    class="md:flex hidden items-center flex-wrap mt-20 gap-3 max-w-[17rem] w-full">
-                    <a href="#"
-                        class="block hover:bg-[#ddb93e] transition-all duration-500 hover:text-white px-5 py-2 rounded-full border-2 border-[#ddb93e] text-[#ddb93e] text-center">Airport</a>
-                    <a href="#"
-                        class="block hover:bg-[#ddb93e] transition-all duration-500 hover:text-white px-5 py-2 rounded-full border-2 border-[#ddb93e] text-[#ddb93e] text-center">Consult</a>
-                    <a href="#"
-                        class="block hover:bg-[#ddb93e] transition-all duration-500 hover:text-white px-5 py-2 rounded-full border-2 border-[#ddb93e] text-[#ddb93e] text-center">Luxury
-                        Tours</a>
-                    <a href="#"
-                        class="block hover:bg-[#ddb93e] transition-all duration-500 hover:text-white px-5 py-2 rounded-full border-2 border-[#ddb93e] text-[#ddb93e] text-center">Weddings</a>
-                </div>
+                    <div class="mt-8 flex flex-col items-start">
+                        <label for="start" class="text-zinc-600">Where from?</label>
+                        <input type="text" class="w-full border border-zinc-400 mb-6 p-3 mt-1 rounded-lg"
+                            placeholder="Enter Collection Address" id="start">
+                        <label for="destination" class="text-zinc-600">Where to?</label>
+                        <input type="text" class="w-full border border-zinc-400 p-3 mt-1 rounded-lg"
+                            placeholder="Enter Destination Address" id="destination">
+                        <button
+                            class="w-full rounded-lg p-4 cursor-pointer bg-[#efc360] text-white font-medium hover:opacity-80 transition-all duration-500 mt-5">GET
+                            MY PRICES</button>
+                    </div>
 
-            </div> -->
+                </form>
+
+            </div>
         </div>
     </section>
 
@@ -109,67 +111,89 @@
 
         <h3 data-aos="fade-up" class="text-center text-xl font-semibold text-zinc-700">The cars</h3>
         <h2 data-aos-delay="100" data-aos="fade-up"
-            class="text-center md:text-5xl text-3xl mt-3 font-semibold text-zinc-700">fleet xexrion</h2>
+            class="text-center md:text-5xl text-3xl mt-3 font-semibold text-zinc-700">Fleet Xexrion</h2>
 
         <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:mt-16 mt-7 gap-6 gap-y-6 ">
             <div data-aos="fade-up">
                 <div
-                    class="p-3 bg-zinc-100 rounded-lg pb-6 transition-all duration-500 hover:bg-zinc-200 hover:-translate-y-3">
-                    <img src="/docs/assets/images/car1.jpg" class="rounded-lg" alt="">
-                    <h2 class="text-2xl mt-3 font-semibold text-zinc-700">BMW 7 Series</h2>
-                    <div class="mt-8 flex items-center justify-between gap-2">
-                        <div class="">
-                            <p class="text-zinc-400 font-medium text-lg">Starting at</p>
-                            <h2 class="text-zinc-800 mt-1 font-medium text-xl">$49/day</h2>
+                    class="bg-zinc-100 rounded-lg pb-6 transition-all duration-500 hover:bg-zinc-200 hover:-translate-y-3">
+                    <img src="/docs/assets/images/car1.jpg" class="rounded-t-lg" alt="">
+                    <div class="px-5 py-2">
+                        <h2 class="text-2xl mt-3 font-semibold text-zinc-700">BMW 7 Series</h2>
+                        <p class="text-zinc-400 font-medium text-lg">$85 per hour</p>
+                        <p class="text-zinc-500 mt-3 border-b pb-5 border-zinc-300">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur.</p>
+                        <div
+                            class="mt-8 max-w-[75%] mx-auto text-center w-full flex items-center justify-between gap-2">
+                            <div class="">
+                                <h2 class="text-zinc-800 font-medium text-2xl">3</h2>
+                                <p class="text-zinc-400 font-medium">Passengers</p>
+                            </div>
+                            <div class="">
+                                <h2 class="text-zinc-800 font-medium text-xl">2</h2>
+                                <p class="text-zinc-400 font-medium ">Luggage</p>
+                            </div>
                         </div>
-                        <a href="/contact.html"
-                            class="transition-all duration-500 hover:opacity-80 border-2 border-[#ddb93e] px-6 py-2 rounded-full text-white bg-[#ddb93e]">Book</a>
                     </div>
                 </div>
             </div>
-            <div data-aos-delay="200" data-aos="fade-up">
+            <div data-aos="fade-up" data-aos-delay="200">
                 <div
-                    class="p-3 bg-zinc-100 rounded-lg pb-6 transition-all duration-500 hover:bg-zinc-200 hover:-translate-y-3">
-                    <img src="/docs/assets/images/car8.jpg" class="rounded-lg" alt="">
-                    <h2 class="text-2xl mt-3 font-semibold text-zinc-700">BMW 7 Series</h2>
-                    <div class="mt-8 flex items-center justify-between gap-2">
-                        <div class="">
-                            <p class="text-zinc-400 font-medium text-lg">Starting at</p>
-                            <h2 class="text-zinc-800 mt-1 font-medium text-xl">$49/day</h2>
+                    class="bg-zinc-100 rounded-lg pb-6 transition-all duration-500 hover:bg-zinc-200 hover:-translate-y-3">
+                    <img src="/docs/assets/images/car6.jpg" class="rounded-t-lg" alt="">
+                    <div class="px-5 py-2">
+                        <h2 class="text-2xl mt-3 font-semibold text-zinc-700">BMW 7 Series</h2>
+                        <p class="text-zinc-400 font-medium text-lg">$85 per hour</p>
+                        <p class="text-zinc-500 mt-3 border-b pb-5 border-zinc-300">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur.</p>
+                        <div
+                            class="mt-8 max-w-[75%] mx-auto text-center w-full flex items-center justify-between gap-2">
+                            <div class="">
+                                <h2 class="text-zinc-800 font-medium text-2xl">3</h2>
+                                <p class="text-zinc-400 font-medium">Passengers</p>
+                            </div>
+                            <div class="">
+                                <h2 class="text-zinc-800 font-medium text-xl">2</h2>
+                                <p class="text-zinc-400 font-medium ">Luggage</p>
+                            </div>
                         </div>
-                        <a href="/contact.html"
-                            class="transition-all duration-500 hover:opacity-80 border-2 border-[#ddb93e] px-6 py-2 rounded-full text-white bg-[#ddb93e]">Book</a>
                     </div>
                 </div>
             </div>
-            <div data-aos-delay="400" data-aos="fade-up">
+            <div data-aos="fade-up">
                 <div
-                    class="p-3 bg-zinc-100 rounded-lg pb-6 transition-all duration-500 hover:bg-zinc-200 hover:-translate-y-3">
-                    <img src="/docs/assets/images/car6.jpg" class="rounded-lg" alt="">
-                    <h2 class="text-2xl mt-3 font-semibold text-zinc-700">BMW 7 Series</h2>
-                    <div class="mt-8 flex items-center justify-between gap-2">
-                        <div class="">
-                            <p class="text-zinc-400 font-medium text-lg">Starting at</p>
-                            <h2 class="text-zinc-800 mt-1 font-medium text-xl">$49/day</h2>
+                    class="bg-zinc-100 rounded-lg pb-6 transition-all duration-500 hover:bg-zinc-200 hover:-translate-y-3">
+                    <img src="/docs/assets/images/car13.jpg" class="rounded-t-lg" alt="">
+                    <div class="px-5 py-2">
+                        <h2 class="text-2xl mt-3 font-semibold text-zinc-700">BMW 7 Series</h2>
+                        <p class="text-zinc-400 font-medium text-lg">$85 per hour</p>
+                        <p class="text-zinc-500 mt-3 border-b pb-5 border-zinc-300">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur.</p>
+                        <div
+                            class="mt-8 max-w-[75%] mx-auto text-center w-full flex items-center justify-between gap-2">
+                            <div class="">
+                                <h2 class="text-zinc-800 font-medium text-2xl">3</h2>
+                                <p class="text-zinc-400 font-medium">Passengers</p>
+                            </div>
+                            <div class="">
+                                <h2 class="text-zinc-800 font-medium text-xl">2</h2>
+                                <p class="text-zinc-400 font-medium ">Luggage</p>
+                            </div>
                         </div>
-                        <a href="/contact.html"
-                            class="transition-all duration-500 hover:opacity-80 border-2 border-[#ddb93e] px-6 py-2 rounded-full text-white bg-[#ddb93e]">Book</a>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div data-aos="fade-up" class="flex items-center md:mt-12 mt-6 justify-center">
+            <a href="/products.html"
+                class="w-full lg:w-auto flex items-center justify-center gap-3 py-4 px-10 md:px-16 font-medium text-center text-zinc-800 rounded-xl bg-[#efc360] hover:opacity-80 transition-all duration-500">
+                View All Fleet
+                <i class="fa-solid fa-angle-right"></i>
+            </a>
+        </div>
+
     </section>
-
-    <section class="md:py-40 vehicles md:mt-16 mt-10 py-16 w-full flex items-center justify-center relative p-4">
-        <h2 data-aos="fade-up"
-            class="text-center max-w-6xl w-full mx-auto text-zinc-200 md:text-5xl text-2xl font-semibold leading-tight">
-            With an extensive fleet of super-luxury vehicles – everything from a Rolls-Royce Phantom to a Tesla to a
-            luxury minicoach - and a very loyal driver base, Premiere Chauffeur Drive offers a consistency of service
-            and uses drivers who are multi-lingual, with great problem-solving skills</h2>
-    </section>
-
-
 
     <section
         class="max-w-7xl w-full flex md:flex-row flex-col items-center justify-between gap-5 mx-auto md:mt-24 mt-0 p-5">
@@ -188,9 +212,134 @@
 
     </section>
 
-    <section class="md:mt-24 bg -[#fffef6] mt-10">
+    <div class="bg-[#121212] md:py-28 py-14 md:mt-24 mt-10">
+        <section class="max-w-7xl w-full mx-auto p-5">
+
+            <h3 data-aos="fade-up" class="text-center text-xl font-semibold text-zinc-400">Tailor made travel just for
+                you</h3>
+            <h2 data-aos-delay="100" data-aos="fade-up"
+                class="text-center md:text-5xl text-3xl mt-3 font-semibold text-zinc-200">Our Services</h2>
+
+            <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:mt-16 mt-7 gap-6 gap-y-6 ">
+                <div data-aos="fade-up">
+                    <div class="bg-[#242424] rounded-lg pb-6 transition-all duration-500 hover:-translate-y-3">
+                        <img src="/docs/assets/images/car5.jpg" class="rounded-t-lg" alt="">
+                        <div class="px-5 py-2">
+                            <h2 class="text-2xl mt-3 font-semibold text-zinc-200">BY THE HOUR</h2>
+                            <p class="text-zinc-400 font-medium text-lg">As Directed Hire</p>
+                            <p class="text-zinc-300 mt-4 mb-7">Transparent hourly pricing with
+                                no hidden extras
+                                keeps you in control.</p>
+                            <a href="/services.html"
+                                class="block font-medium flex transition-all duration-500 hover:gap-3 items-center gap-2 text-zinc-300">
+                                View Services <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-[#242424] rounded-lg pb-6 transition-all duration-500 hover:-translate-y-3">
+                        <img src="/docs/assets/images/car9.jpg" class="rounded-t-lg" alt="">
+                        <div class="px-5 py-2">
+                            <h2 class="text-2xl mt-3 font-semibold text-zinc-200">AIRPORT</h2>
+                            <p class="text-zinc-400 font-medium text-lg">Meet and Greet</p>
+                            <p class="text-zinc-300 mt-4 mb-7">Expect high-flying service and style with our all
+                                inclusive airport meet and greet service.</p>
+                            <a href="/services.html"
+                                class="block font-medium flex transition-all duration-500 hover:gap-3 items-center gap-2 text-zinc-300">
+                                View Services <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <div class="bg-[#242424] rounded-lg pb-6 transition-all duration-500 hover:-translate-y-3">
+                        <img src="/docs/assets/images/car11.jpg" class="rounded-t-lg" alt="">
+                        <div class="px-5 py-2">
+                            <h2 class="text-2xl mt-3 font-semibold text-zinc-200">ONE WAY</h2>
+                            <p class="text-zinc-400 font-medium text-lg">First Class Service From A to B</p>
+                            <p class="text-zinc-300 mt-4 mb-7">Enjoy safe and luxurious travel from pickup to
+                                destination.</p>
+                            <a href="/services.html"
+                                class="block font-medium flex transition-all duration-500 hover:gap-3 items-center gap-2 text-zinc-300">
+                                View Services <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="max-w-7xl w-full mx-auto md:mt-24 mt-10 p-5">
+
+        <h2 data-aos="fade-up"
+            class="text-center md:text-5xl text-2xl max-w-3xl capitalize leading-tight mx-auto  font-semibold text-zinc-700">
+            We make sure that your every
+            trip is comfortable</h2>
+       
+        <div class="grid md:grid-cols-2 grid-cols-1 md:mt-20 mt-14 gap-10 md:gap-y-24 ">
+            <div data-aos="fade-up" class="flex md:items-center md:gap-7 gap-3 md:flex-row flex-col">
+                <div class="bg-[#ebcc60] md:w-20 w-16 md:h-20 h-16 flex items-center justify-center rounded-lg myShadow">
+                    <img src="/docs/assets/images/luxury-car.png" class="md:h-12 h-10" alt="">
+                </div>
+                <div class="">
+                    <h2 class="text-xl font-semibold text-zinc-700">Luxury Limousine Selection</h2>
+                    <p class="text-zinc-500 mt-1 ">Both you and your shipment travel with proofessional drivers.</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="flex md:items-center md:gap-7 gap-3 md:flex-row flex-col">
+                <div class="bg-[#ebcc60] md:w-20 w-16 md:h-20 h-16 flex items-center justify-center rounded-lg myShadow">
+                    <img src="/docs/assets/images/support.png" class="md:h-12 h-10" alt="">
+                </div>
+                <div class="">
+                    <h2 class="text-xl font-semibold text-zinc-700">27/7 Order Available</h2>
+                    <p class="text-zinc-500 mt-1 ">Both you and your shipment travel with proofessional drivers.</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="flex md:items-center md:gap-7 gap-3 md:flex-row flex-col">
+                <div class="bg-[#ebcc60] md:w-20 w-16 md:h-20 h-16 flex items-center justify-center rounded-lg myShadow">
+                    <img src="/docs/assets/images/fast.png" class="md:h-12 h-10" alt="">
+                </div>
+                <div class="">
+                    <h2 class="text-xl font-semibold text-zinc-700">Fast Car Delivery Service</h2>
+                    <p class="text-zinc-500 mt-1 ">Both you and your shipment travel with proofessional drivers.</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="flex md:items-center md:gap-7 gap-3 md:flex-row flex-col">
+                <div class="bg-[#ebcc60] md:w-20 w-16 md:h-20 h-16 flex items-center justify-center rounded-lg myShadow">
+                    <img src="/docs/assets/images/secure-shield.png" class="md:h-12 h-10" alt="">
+                </div>
+                <div class="">
+                    <h2 class="text-xl font-semibold text-zinc-700">High Safety and Nurity</h2>
+                    <p class="text-zinc-500 mt-1 ">Both you and your shipment travel with proofessional drivers.</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="flex md:items-center md:gap-7 gap-3 md:flex-row flex-col">
+                <div class="bg-[#ebcc60] md:w-20 w-16 md:h-20 h-16 flex items-center justify-center rounded-lg myShadow">
+                    <img src="/docs/assets/images/credit-card.png" class="md:h-12 h-10" alt="">
+                </div>
+                <div class="">
+                    <h2 class="text-xl font-semibold text-zinc-700">Fixed Price & Bonus System</h2>
+                    <p class="text-zinc-500 mt-1 ">Both you and your shipment travel with proofessional drivers.</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="flex md:items-center md:gap-7 gap-3 md:flex-row flex-col">
+                <div class="bg-[#ebcc60] md:w-20 w-16 md:h-20 h-16 flex items-center justify-center rounded-lg myShadow">
+                    <img src="/docs/assets/images/taxi-driver.png" class="md:h-12 h-10" alt="">
+                </div>
+                <div class="">
+                    <h2 class="text-xl font-semibold text-zinc-700">Professional Car Drivers</h2>
+                    <p class="text-zinc-500 mt-1 ">Both you and your shipment travel with proofessional drivers.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="md:mt-32 bg -[#fffef6] mt-10">
         <div class="max-w-7xl w-full mx-auto  p-5">
-            <h2 data-aos="fade-up" class="md:text-3xl text-2xl text-center text-[#ddb93e] font-bold">WHAT OUR CUSTOMERS
+            <h2 data-aos="fade-up" class="md:text-5xl text-2xl text-center text-[#ddb93e] font-semibold">WHAT OUR CUSTOMERS
                 SAY</h2>
 
             <div data-aos="fade-up" class="flex items-center justify-center gap-10 md:mt-20 mt-8 max-w-4xl mx-auto">
@@ -230,7 +379,7 @@
     </section>
 
     <!-- Ready to Go? -->
-    <section class="max-w-7xl carBg md:rounded-xl md:mt-20 mt-10 w-full md:py-32 py-20 mx-auto">
+    <section class="max-w-7xl carBg md:rounded-xl md:mt-28 mt-10 w-full md:py-32 py-20 mx-auto">
         <div class="md:max-w-[50%] w-full  p-5 md:px-16">
             <h2 data-aos="fade-up" class="md:text-5xl text-3xl font-bold text-zinc-100">Ready to Go?</h2>
             <p data-aos="fade-up" data-aos-delay="100" class="text-xl text-zinc-300 md:mt-4 mt-2 mb-5">Book your trip
